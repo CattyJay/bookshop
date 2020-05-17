@@ -1,0 +1,10 @@
+﻿<h1 align="center">Все книги</h1>
+<h3 class="left-width">@Model.currCategory</h3>
+<div>
+    @{
+        foreach (Book book in Model.allBooks)
+        {
+            @Html.Partial("AllBooks", book)
+        }
+    }
+</div>

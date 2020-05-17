@@ -1,0 +1,27 @@
+﻿body {
+    background: #fcfcfc;
+}
+
+.book-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.book-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image-wrapper {
+    width: 30%;
+}
+
+.text-wrapper {
+    width: 40%;
+}
+
+.left-width {
+    margin-left: 170px;
+}
